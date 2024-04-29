@@ -197,6 +197,8 @@ jQuery(document).ready(function($) {
         out += '<label><input type="radio" class="radio_field_type" name="bc_settings_forms[forms][.narray.][field][.narray2.][type]" value="textarea">Textarea</label> | ';
         out += '<label><input type="radio" class="radio_field_type" name="bc_settings_forms[forms][.narray.][field][.narray2.][type]" value="checkbox">Checkbox</label> | ';
         out += '<label><input type="radio" class="radio_field_type" name="bc_settings_forms[forms][.narray.][field][.narray2.][type]" value="num">Numerico</label><br>';
+        out += '<label><input type="radio" class="radio_field_type" name="bc_settings_forms[forms][.narray.][field][.narray2.][type]" value="radio">Radio</label><br>';
+        out += '<label><input type="radio" class="radio_field_type" name="bc_settings_forms[forms][.narray.][field][.narray2.][type]" value="select">Select</label><br>';
         out += '<label><input type="radio" class="radio_field_type" name="bc_settings_forms[forms][.narray.][field][.narray2.][type]" value="testo">Solo testo</label>';
         out += '<br><br><div style="display:inline-block">Name<br><input type="text" class="input_field_forms_name" name="bc_settings_forms[forms][.narray.][field][.narray2.][name]"/></div> ';
         out += '<div style="display:inline-block">Label<br><input type="text" class="input_field_forms_label" name="bc_settings_forms[forms][.narray.][field][.narray2.][label]"/></div><br><br> ';

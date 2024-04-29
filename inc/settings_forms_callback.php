@@ -67,13 +67,13 @@
                                                 '<label><input type="radio" class="radio_field_type" name="bc_settings_forms[forms][%s][field][%s][type]" value="radio" %s>Radio</label> | ',
                                                 $narray,
                                                 $narray2,
-                                                ( $v2['type'] == 'checkbox' ) ? 'checked' : ''
+                                                ( $v2['type'] == 'radio' ) ? 'checked' : ''
                                             );
                                             printf(
                                                 '<label><input type="radio" class="radio_field_type" name="bc_settings_forms[forms][%s][field][%s][type]" value="select" %s>Select</label> <br> ',
                                                 $narray,
                                                 $narray2,
-                                                ( $v2['type'] == 'checkbox' ) ? 'checked' : ''
+                                                ( $v2['type'] == 'select' ) ? 'checked' : ''
                                             );
                                             
                                             printf(
